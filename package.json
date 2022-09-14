@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -37,6 +37,7 @@
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.9",
     "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "eslint-plugin-storybook": "^0.6.4",
