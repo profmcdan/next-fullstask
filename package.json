@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006 -s ./public",
-    "build-storybook": "build-storybook -s public",
-    "prettier": "prettier --write ."
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.3.0",
@@ -37,6 +38,7 @@
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "eslint-plugin-storybook": "^0.6.4",
+    "husky": "^8.0.1",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
     "storybook-css-modules-preset": "^1.1.1",
